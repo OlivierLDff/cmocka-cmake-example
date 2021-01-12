@@ -17,9 +17,10 @@
 // TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH
 // THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+#include <stdarg.h>
 #include <setjmp.h>
-#include <cmocka.h>
 #include <stddef.h>
+#include <cmocka.h>
 
 static void test(void **state)
 {
